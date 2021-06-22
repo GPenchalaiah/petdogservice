@@ -1,0 +1,536 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.25945" type="text/javascript"></script>
+<script type="text/javascript">
+	JotForm.init(function(){
+      setTimeout(function() {
+          $('input_20').hint('ex: myname@example.com');
+       }, 20);
+if (window.JotForm && JotForm.accessible) $('input_22').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_25').setAttribute('tabindex',0);
+
+ JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+ JotForm.calendarDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+ JotForm.calendarOther = {"today":"Today"};
+ var languageOptions = document.querySelectorAll('#langList li'); 
+ for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
+   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("26", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
+ } 
+ JotForm.setCalendar("26", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+      JotForm.description('input_23', 'Optional Service');
+if (window.JotForm && JotForm.accessible) $('input_24').setAttribute('tabindex',0);
+	JotForm.newDefaultTheme = false;
+	JotForm.extendsNewTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"name14","qid":"14","text":"Send","type":"control_button"},null,null,null,{"name":"clickTo","qid":"18","text":"Dog Daycare Reservation","type":"control_head"},{"name":"ownersFull","qid":"19","text":"Owner's full name:","type":"control_fullname"},{"name":"emailAddress","qid":"20","text":"E-mail Address:","type":"control_email"},{"name":"phoneNumber21","qid":"21","text":"Phone Number:","type":"control_phone"},{"name":"dogsName","qid":"22","text":"Dog's Name:","type":"control_textbox"},{"description":"Optional Service","name":"optionalGrooming","qid":"23","text":"Optional Grooming Services:","type":"control_checkbox"},{"name":"comments24","qid":"24","text":"Comments:","type":"control_textarea"},{"name":"dogBreed","qid":"25","text":"Dog Breed:","type":"control_textbox"},{"name":"daycareDate","qid":"26","text":"Daycare Date","type":"control_datetime"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"name14","qid":"14","text":"Send","type":"control_button"},null,null,null,{"name":"clickTo","qid":"18","text":"Dog Daycare Reservation","type":"control_head"},{"name":"ownersFull","qid":"19","text":"Owner's full name:","type":"control_fullname"},{"name":"emailAddress","qid":"20","text":"E-mail Address:","type":"control_email"},{"name":"phoneNumber21","qid":"21","text":"Phone Number:","type":"control_phone"},{"name":"dogsName","qid":"22","text":"Dog's Name:","type":"control_textbox"},{"description":"Optional Service","name":"optionalGrooming","qid":"23","text":"Optional Grooming Services:","type":"control_checkbox"},{"name":"comments24","qid":"24","text":"Comments:","type":"control_textarea"},{"name":"dogBreed","qid":"25","text":"Dog Breed:","type":"control_textbox"},{"name":"daycareDate","qid":"26","text":"Daycare Date","type":"control_datetime"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.25945" rel="stylesheet" type="text/css" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.25945" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.25945" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=5f6c4c83346ec05354558fe8"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.25945" />
+ <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> 
+ <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: false;
+    }
+
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Verdana,Tahoma,sans-serif, sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Verdana,Tahoma,sans-serif, sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Verdana,Tahoma,sans-serif, sans-serif;
+    }
+    .form-header-group {
+      font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Verdana,Tahoma,sans-serif, sans-serif;
+    }
+    .form-label {
+      font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Verdana,Tahoma,sans-serif, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: inline-block;
+    float: left;
+    text-align: left;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px 36px 12px 36px px;
+      margin-bottom: 12px 36px 12px 36px px;
+    }
+  
+    .form-all {
+      max-width: 690px;
+      width: 100%;
+    }
+  
+    .form-label.form-label-left,
+    .form-label.form-label-right,
+    .form-label.form-label-left.form-label-auto,
+    .form-label.form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 14pxpx
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 14pxpx
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 14pxpx
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: ;
+    }
+  
+    .form-all {
+      color: Black;
+    }
+    .form-header-group .form-header {
+      color: Black;
+    }
+    .form-header-group .form-subHeader {
+      color: Black;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: Black;
+    }
+    .form-sub-label {
+      color: 1a1a25;
+    }
+  
+    .supernova {
+      background-color: undefined;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-dropdown,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: undefined;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+    .form-all {
+      background-image: none;
+    }
+  
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+    /* Injected CSS Code */
+</style>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <!--<h1 class="logo me-auto"><a href="index.html"><span>Com</span>pany</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+        <li class="dropdown"><a href="#"><span>ABOUT</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="team.html">Requirements</a></li>
+              <li><a href="testimonials.html">Faq</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
+             <ul>
+              <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
+                 <ul>
+                  <li><a href="#">Daycare</a></li>
+                  <li><a href="#">Boarding</a></li>
+                  <li><a href="#">Grooming</a></li>
+                  <li><a href="#">Training</a></li>
+                </ul>
+             </li>
+          
+              <li><a href="pricing.html">PRICES</a></li>
+            </ul>
+          </li>
+           <li class="dropdown"><a href="#"><span>EVENTS</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">PROMOTIONS</a></li>
+              <li><a href="team.html">WORKSHOPS</a></li>
+            </ul>
+          </li> 
+          <li><a href="portfolio.html">NEW CLIENTS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">GALLERY</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <!-- <div class="header-social-links d-flex">
+        <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+      </div> -->
+
+    </div>
+  </header>
+<form class="jotform-form" action="https://submit.jotform.com/submit/211672489569471/" method="post" name="form_211672489569471" id="211672489569471" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="211672489569471" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_18" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-default">
+          <div class="header-text httal htvam">
+            <h2 id="header_18" class="form-header" data-component="header">
+              Dog Daycare Reservation
+            </h2>
+            <div id="subHeader_18" class="form-subHeader">
+              Share with us what care you need for your dog and we will do just exactly that!
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_fullname" id="id_19">
+        <label class="form-label form-label-top form-label-auto" id="label_19" for="first_19">
+          Owner's full name:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_19" class="form-input-wide jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="first">
+              <input type="text" id="first_19" name="q19_ownersFull[first]" class="form-textbox validate[required]" size="10" value="" data-component="first" aria-labelledby="label_19 sublabel_19_first" required="" />
+              <label class="form-sub-label" for="first_19" id="sublabel_19_first" style="min-height:13px" aria-hidden="false"> First Name </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
+              <input type="text" id="last_19" name="q19_ownersFull[last]" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_19 sublabel_19_last" required="" />
+              <label class="form-sub-label" for="last_19" id="sublabel_19_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_email" id="id_20">
+        <label class="form-label form-label-top form-label-auto" id="label_20" for="input_20">
+          E-mail Address:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_20" class="form-input-wide jf-required">
+          <input type="email" id="input_20" name="q20_emailAddress" class="form-textbox validate[required, Email]" size="30" value="" placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_20" required="" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_phone" id="id_21">
+        <label class="form-label form-label-top form-label-auto" id="label_21" for="input_21_area">
+          Phone Number:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_21" class="form-input-wide jf-required">
+          <div data-wrapper-react="true">
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode">
+              <input type="tel" id="input_21_area" name="q21_phoneNumber21[area]" class="form-textbox validate[required]" value="" data-component="areaCode" aria-labelledby="label_21 sublabel_21_area" required="" />
+              <span class="phone-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="input_21_area" id="sublabel_21_area" style="min-height:13px" aria-hidden="false"> Area Code </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone">
+              <input type="tel" id="input_21_phone" name="q21_phoneNumber21[phone]" class="form-textbox validate[required]" value="" data-component="phone" aria-labelledby="label_21 sublabel_21_phone" required="" />
+              <label class="form-sub-label" for="input_21_phone" id="sublabel_21_phone" style="min-height:13px" aria-hidden="false"> Phone Number </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_22">
+        <label class="form-label form-label-top form-label-auto" id="label_22" for="input_22">
+          Dog's Name:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_22" class="form-input-wide jf-required">
+          <input type="text" id="input_22" name="q22_dogsName" data-type="input-textbox" class="form-textbox validate[required]" size="20" value="" placeholder=" " data-component="textbox" aria-labelledby="label_22" required="" />
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_25">
+        <label class="form-label form-label-top form-label-auto" id="label_25" for="input_25">
+          Dog Breed:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_25" class="form-input-wide jf-required">
+          <input type="text" id="input_25" name="q25_dogBreed" data-type="input-textbox" class="form-textbox validate[required]" size="20" value="" placeholder=" " data-component="textbox" aria-labelledby="label_25" required="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_datetime" id="id_26">
+        <label class="form-label form-label-top form-label-auto" id="label_26" for="month_26"> Daycare Date </label>
+        <div id="cid_26" class="form-input-wide">
+          <div data-wrapper-react="true" class="extended notLiteMode">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[limitDate]" id="month_26" name="q26_daycareDate[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" autoComplete="off" aria-labelledby="label_26 sublabel_26_month" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="month_26" id="sublabel_26_month" style="min-height:13px" aria-hidden="false"> Month </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[limitDate]" id="day_26" name="q26_daycareDate[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" autoComplete="off" aria-labelledby="label_26 sublabel_26_day" />
+              <span class="date-separate" aria-hidden="true">
+                 -
+              </span>
+              <label class="form-sub-label" for="day_26" id="sublabel_26_day" style="min-height:13px" aria-hidden="false"> Day </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="tel" class="form-textbox validate[limitDate]" id="year_26" name="q26_daycareDate[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="" autoComplete="off" aria-labelledby="label_26 sublabel_26_year" />
+              <label class="form-sub-label" for="year_26" id="sublabel_26_year" style="min-height:13px" aria-hidden="false"> Year </label>
+            </span>
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <img class="showAutoCalendar newDefaultTheme-dateIcon icon-seperatedMode" alt="Pick a Date" id="input_26_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v1" />
+              <label class="form-sub-label" for="input_26_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="true"> Date Picker Icon </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_23">
+        <label class="form-label form-label-top form-label-auto" id="label_23" for="input_23"> Optional Grooming Services: </label>
+        <div id="cid_23" class="form-input-wide">
+          <div class="form-single-column" role="group" aria-labelledby="label_23" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" aria-describedby="label_23" class="form-checkbox" id="input_23_0" name="q23_optionalGrooming[]" value="Nail Trim" />
+              <label id="label_input_23_0" for="input_23_0"> Nail Trim </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" aria-describedby="label_23" class="form-checkbox" id="input_23_1" name="q23_optionalGrooming[]" value="Bath" />
+              <label id="label_input_23_1" for="input_23_1"> Bath </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" aria-describedby="label_23" class="form-checkbox" id="input_23_2" name="q23_optionalGrooming[]" value="Hair Trim" />
+              <label id="label_input_23_2" for="input_23_2"> Hair Trim </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" aria-describedby="label_23" class="form-checkbox" id="input_23_3" name="q23_optionalGrooming[]" value="Stripping" />
+              <label id="label_input_23_3" for="input_23_3"> Stripping </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textarea" id="id_24">
+        <label class="form-label form-label-left" id="label_24" for="input_24"> Comments: </label>
+        <div id="cid_24" class="form-input">
+          <textarea id="input_24" class="form-textarea" name="q24_comments24" cols="40" rows="6" data-component="textarea" aria-labelledby="label_24"></textarea>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_14">
+        <div id="cid_14" class="form-input-wide">
+          <div style="text-align:left" data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField">
+            <button id="input_14" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Send
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by JotForm";
+  </script>
+  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="211672489569471" />
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='211672489569471'] .si" + "mple" + "_spc");
+for (var i = 0; i < all_spc.length; i++)
+{
+  all_spc[i].value = "211672489569471-211672489569471";
+}
+  </script>
+  <main id="main">
+
+          <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Some photos from Our Pet</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images8.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images8.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images7.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images7.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images2.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images2.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images1.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images1.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images6.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images6.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images3.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images3.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/slide/images9.jpeg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/slide/images9.jpeg" alt="" class="img-fluid" width="400" height="400">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+  </main>
+</form>
+
